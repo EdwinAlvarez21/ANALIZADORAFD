@@ -1,0 +1,116 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 25px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.visual {
+    flex: 1;
+    position: relative;
+    margin-right: 30px;
+}
+
+.laptop-mockup {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.glow {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background: radial-gradient(circle, rgba(138, 58, 185, 0.6) 0%, rgba(255, 100, 100, 0.6) 100%);
+    border-radius: 50%;
+    filter: blur(50px);
+    z-index: -1;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 70vw;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input[type="file"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #222;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn-analyze {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4136;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-analyze:hover {
+    background-color: #e60000;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 1px
+}
